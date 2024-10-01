@@ -1,16 +1,17 @@
 .items {
-    display: flex;
+    display: inline-block;
     float: left;
-    width: 33.33%;
+    width: 30%;
     position: static;
     padding: 10px;
+    box-sizing: content-box;
 }
 
 .items h2 p button {
     text-align: justify;
 }
 
-.items button {
+/*.items button {
     width: 80%;
     height: auto;
 }

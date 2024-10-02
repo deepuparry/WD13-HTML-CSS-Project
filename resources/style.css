@@ -1,25 +1,32 @@
 /* CSS for items */
 
-.items {
+.items, .cart {
     display: inline-block;
     width: 30%;
     position: static;
     padding: 10px;
     box-sizing: content-box;
-    justify-content: space-around;
-    align-items: center;
+
 }
 
-.items h2 p {
+.items h2, .items p, .cart h2, .cart p {
+    position: relative;
     text-align: center;
     
 }
 
 .items button {
-    align-items: center;
+    margin-left: 42%;
 }
 
-/*.items button {
-    width: 80%;
-    height: auto;
+.items img, .cart img {
+    padding-left: 30%;
+}
+
+.cart button {
+    margin-left: 39%;
+}
+
+h1 {
+    font-size: 3rem;
 }

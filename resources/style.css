@@ -1,0 +1,25 @@
+/* CSS for items */
+
+.items {
+    display: inline-block;
+    width: 30%;
+    position: static;
+    padding: 10px;
+    box-sizing: content-box;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.items h2 p {
+    text-align: center;
+    
+}
+
+.items button {
+    align-items: center;
+}
+
+/*.items button {
+    width: 80%;
+    height: auto;
+}

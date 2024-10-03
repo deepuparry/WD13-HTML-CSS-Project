@@ -6,25 +6,29 @@
     position: static;
     padding: 10px;
     box-sizing: content-box;
+    border: 2px solid blue;
+    margin: 10px;
 
 }
 
 .items h2, .items p, .cart h2, .cart p {
-    position: relative;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
 .items button {
-    margin-left: 42%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     margin: 5px;
     border: 1px solid black;
-    margin-left: 30%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container img {
@@ -36,10 +40,15 @@
 
 
 .cart button {
-    margin-left: 39%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
     font-size: 3rem;
 }
 
+.checkout {
+    float: right;
+    font-size: 1.5rem;
+}

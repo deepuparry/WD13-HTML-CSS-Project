@@ -34,9 +34,10 @@
     align-items: center;
 }
 .container img {
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     display: block;
+    object-fit: contain;
 }
 .cart button {
     margin-left: auto;

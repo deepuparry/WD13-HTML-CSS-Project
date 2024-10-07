@@ -2,57 +2,62 @@
 
 .items, .cart {
     display: inline-block;
-    width: 30%;
     position: static;
     padding: 10px;
     box-sizing: content-box;
-    border: 2px solid blue;
+    border: 2px solid burlywood;
     margin: 10px;
-    overflow: auto;
-    margin-left: auto;
-    margin-right: auto;
-
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
 }
-
 .items h2, .items p, .cart h2, .cart p {
     margin-left: auto;
     margin-right: auto;
-    
 }
-
 .items button {
     margin-left: auto;
     margin-right: auto;
 }
-
 .container {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     margin: 5px;
     border: 1px solid black;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
 }
-
 .container img {
     max-width: 100%;
     height: 100%;
     display: block;
     object-fit: contain;
 }
-
-
 .cart button {
     margin-left: auto;
     margin-right: auto;
 }
-
 h1 {
     font-size: 3rem;
 }
-
 .checkout {
     float: right;
     font-size: 1.5rem;
+}
+.items {
+    justify-content: center;
+    align-items: initial;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    overflow: hidden; /* Hide overflow to keep the image in the frame */
+}
+.shopmart {
+    text-align: center;
 }

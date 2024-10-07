@@ -5,8 +5,7 @@
     position: static;
     padding: 10px;
     box-sizing: content-box;
-    border: 2px solid burlywood;
-    margin: 10px;
+    border: 2px solid white
     overflow: hidden;
     justify-content: center;
     align-items: center;
@@ -26,7 +25,7 @@
     width: 300px;
     height: 300px;
     margin: 5px;
-    border: 1px solid black;
+    
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
@@ -61,3 +60,29 @@ h1 {
 .shopmart {
     text-align: center;
 }
+
+.login {
+    text-align: left;
+    margin-left: 50px;
+    padding-left: 90px;
+    margin-right:90px;
+    color:black;
+}
+
+.signup {
+    text-align: left;
+    margin-left: 60px;
+    padding-right: 60px;
+    margin-right:50px;
+    color:black;
+}
+.form-group {
+    margin-bottom: 15px;
+    text-align: center ;
+    display: flex;
+}
+.log-group {
+    
+    display: flex;
+    text-align: center ;
+    }

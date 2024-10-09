@@ -121,18 +121,17 @@ h1 {
     float: right;
     font-size: 1.5rem;
 }
-/*.items {
+.items {
     justify-content: center;
     align-items: initial;
     width: fit-content;
     height: fit-content;
     position: relative;
     overflow: hidden; /* Hide overflow to keep the image in the frame */
-
+}
 .shopmart {
     text-align: center;
 }
-
 
 .login {
     text-align: left;
@@ -150,13 +149,13 @@ h1 {
     color:black;
 }
 .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 7px;
+    margin-top: 7px;
     text-align: center ;
     display: flex;
-}
+} 
 .log-group {
-    
-    display: flex;
+       display: flex;
     text-align: center ;
     }
 

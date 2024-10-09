@@ -77,12 +77,12 @@ h1 {
     color:black;
 }
 .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 7px;
+    margin-top: 7px;
     text-align: center ;
     display: flex;
-}
+} 
 .log-group {
-    
-    display: flex;
+       display: flex;
     text-align: center ;
-    }
+    } 

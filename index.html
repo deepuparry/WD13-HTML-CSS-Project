@@ -10,7 +10,7 @@
     <body>
         <header>
             <!-- HEADER SECTION -->
-            <div class="image-conatiner">
+        <!--    <div class="image-conatiner"> -->
                 <img src="logo.jpg" class="logo">
                 <a href="#cart-section"><img src="cartpic.jpg" class="cart-icon"></a>
             </div>
@@ -19,15 +19,17 @@
             <a href="#contact" class="contact">Contact us</a>
             <a href="#login" class="login">Log in</a>
             <a href="#signup" class="signup">Sign Up</a>
-
         </header>
+
+
+
         <!-- Items Section -->
         <main>
 
             <section>
                 <h1>Collection</h1>
                 <div class="items">
-                    <div class="container">
+              <div class="container"> 
                         <img src="resources/images/cereal.jpg">
                     </div>
                     <h2>Coco pops</h2>
@@ -36,7 +38,7 @@
                 </div>
 
                 <div class="items">
-                    <div class="container">
+                   <div class="container"> 
                         <img src="resources/images/icecream.jpg">
                     </div>
                     <h2>Ice cream</h2>
@@ -52,8 +54,6 @@
                     <p>$1.30</p>
                     <button>Add to Cart</button>
                 </div>
-
-                
                 <div class="items">
                     <div class="container">
                         <img src="resources/images/milk.jpg">
@@ -127,9 +127,13 @@
                     <button>Add to Cart</button>
                 </div>
             </section>
+
+
             <br><br><br><br><br>
             <br><br><br><br><br>
             <br><br><br><br><br>
+
+
         <!-- Cart Section -->
         <section id="cart-section">
             <h1>Cart</h1>
@@ -179,12 +183,15 @@
                 <h3>Total: $8:00</h3>
             <button>Checkout</button>
             </div>
-        
-        </section>
-        </main>
+                </section>
+                </main>
+
+                
         <br><br><br><br><br><br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br><br><br><br><br>
-        <br>   
+        
+
+
         <!-- Footer section -->
         <footer>
             <hr>
@@ -201,12 +208,13 @@
                     <br><br> <strong>Community Focus:</strong> We are proud to be part of the Australia community and support local initiatives and businesses.
                     Join us at Shopmart and discover a better way to shop! We look forward to serving you.</div>
                 </div>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br><hr>
+
+
+                <br><br> <br><br>
+                <br><br> <br><br> 
+
+
+            <hr>
                 <div id="contact" class="contact">
                     <strong><u>Contact Us:</u></strong><br>
                 </div>
@@ -219,6 +227,9 @@
                     <strong>Mobile:</strong>0123456789
                     <br>
                 </div>
+
+
+
                 <br><br><br><br><br>
                 <br><br><br><br><br>
                 <br><br><br><br><br>
@@ -230,8 +241,11 @@
                     <div class="log-group">
                     <label for="username">Username</label>
                 <input type="text" id="username" name="username" required minlength="3" maxlength="15">
-            </div><br>
-           <div class="form-group">
+            </div>
+
+            <br>
+
+          <div class="form-group"> 
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" required minlength="8" maxlength="15">
             </div>
@@ -254,7 +268,7 @@
                     </div>
                     <div class="form-group">
                         <label for="phone">Phone Number:</label>
-                        <input type="tel" id="phone" name="phone" pattern="{0 to 9}" placeholder="1234567890" required >
+                        <input type="tel"" id="phone" name="phone" pattern="{0 to 9}" required maxlength="10">
                         
                     </div>
                     <div class="form-group">

@@ -30,10 +30,10 @@
         
         <main>
             <!-- Items Section -->
-            <section>
+            <section class="item-section">
                 <h1>Collection</h1>
                 <div class="items">
-              <div class="container"> 
+                    <div class="container"> 
                         <img src="resources/images/cereal.jpg">
                     </div>
                     <h2>Coco pops</h2>
@@ -58,6 +58,7 @@
                     <p>$1.30</p>
                     <button>Add to Cart</button>
                 </div>
+
                 <div class="items">
                     <div class="container">
                         <img src="resources/images/milk.jpg">
@@ -103,7 +104,6 @@
                     <button>Add to Cart</button>
                 </div>
 
-
                 <div class="items">
                     <div class="container">
                         <img src="resources/images/eggs.jpg">
@@ -147,6 +147,7 @@
                     <p>$10.95</p>
                     <button>Remove from Cart</button>
                 </div>
+
                 <div class="cart">
                     <div class="container">
                         <img src="resources/images/sugar.jpg">
@@ -155,6 +156,7 @@
                     <p>$2.95</p>
                     <button>Remove from Cart</button>
                 </div>
+
                 <div class="cart">
                     <div class="container">
                         <img src="resources/images/wipes.jpg">
@@ -163,6 +165,7 @@
                     <p>$4.99</p>
                     <button>Remove from Cart</button>
                 </div>
+
                 <div class="cart">
                     <div class="container">
                         <img src="resources/images/bottle.jpg">
@@ -171,6 +174,7 @@
                     <p>$15.90</p>
                     <button>Remove from Cart</button>
                 </div>
+
                 <div class="cart">
                     <div class="container">
                         <img src="resources/images/salad.jpg">
@@ -181,23 +185,21 @@
                 </div>
 
                 <br>
+
                 <div class="checkout" target="_blank">
                     <h3>Total: $8:00</h3>
-                <button>Checkout</button>
+                    <button>Checkout</button>
                 </div>
             
             </section>
         </main>
-        <br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
         
-
-
         <!-- Footer section -->
         <footer>
             <hr>
             <section>
-                <form>
                 <div id="about">
                     <p><strong><u>About us</u></strong><br></p>
                     <p>Welcome to Shopmart!</p>
@@ -213,17 +215,16 @@
                     <p>We are proud to be part of the Australia community and support local initiatives and businesses.</p>
                     <p>Join us at Shopmart and discover a better way to shop! We look forward to serving you.</p>
                 </div>
-
                 <br>
                 <br>
-
-            <hr>
+                
+                <hr>
                 <div id="contact" class="contact">
                     <p><strong><u>Contact Us:</u></strong><br></p>
                 </div>
                 
                 <br>
-
+                
                 <div class="shopmart">
                     <p><strong> Address: </strong>24 Pitt Street</p>
                     <p>Adelaide 5000</p>
@@ -234,78 +235,82 @@
                     <p><strong>Mobile: </strong>0123456789</p>
                     <br>
                 </div>
-
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-
-                <div id="login" class="login">
-                    <h2><strong>Log in</strong></h2>
-                    <br>
-                </div>
-                    <br>
-                    <br>
-                <div class="log-group">
-                    <label for="username">Username: </label>
-                    <input type="text" id="username" name="username" minlength="3" maxlength="15" required>
-                </div>
                 
                 <br>
-
-                <div class="form-group">
-                    <label for="password">Password: </label>
-                    <input type="password" id="password" name="password" minlength="8" maxlength="15" required>
-                </div>
-                
-                <input type="submit" value="submit">
-                
-                <br><br><br><br><br>
-                <br><br><br><br><br>
-                <br><br><br><br><br>
-
-                <div id="signup" class="signup">
-                    <strong><h2>Sign Up</h2></strong>
-                    <br>
-                </div>
                 <br>
                 <br>
-                
-                <div class="form-group">
-                    <label for="first-name">First Name: </label>
-                    <input type="text" id="first-name" name="first-name" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="last-name">Last Name: </label>
-                    <input type="text" id="last-name" name="last-name" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="phone">Phone Number: </label>
-                    <input type="tel" id="phone" name="phone" pattern="[0-9]" placeholder="1234567890" required >
-                </div>
-
-                <div class="form-group">
-                    <label for="email">Email: </label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="username">Username: </label>
-                    <input type="text" id="username" name="username" required minlength="3" maxlength="15">
-                </div>
-                
-                <div class="form-group">
-                    <label for="password">Password: </label>
-                    <input type="password" id="password" name="password" required minlength="8" maxlength="15">
-                </div>
-
-                <input type="submit" value="submit">
-
-                </form>
             </section>
+
+            <hr>
+            
+                <!-- Login and Sign Up Section -->
+            <section class="form-section">
+                <!--Login Section-->
+                <div class="form">
+                    <form>
+                        <div id="login" class="login">
+                            <h2><strong>Log in</strong></h2>
+                        </div>
+                        
+                        <br>
+
+                        <div class="form-group">
+                            <label for="username">Username: </label>
+                            <input type="text" id="username" name="username" minlength="3" maxlength="15" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Password: </label>
+                            <input type="password" id="password" name="password" minlength="8" maxlength="15" required>
+                        </div>
+                        
+                        <input type="submit" value="submit" class="submit">
+                    </form>
+                </div>
+                <!-- Sign Up Section -->
+                <div class="form">
+                    <form>
+                        <div id="signup" class="signup">
+                            <strong><h2>Sign Up</h2></strong>
+                        </div>
+                        
+                        <br>
+
+                        <div class="form-group">
+                            <label for="first-name">First Name: </label>
+                            <input type="text" id="first-name" name="first-name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="last-name">Last Name: </label>
+                            <input type="text" id="last-name" name="last-name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number: </label>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]" placeholder="1234567890" required >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email: </label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="username">Username: </label>
+                            <input type="text" id="username" name="username" required minlength="3" maxlength="15">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="password">Password: </label>
+                            <input type="password" id="password" name="password" required minlength="8" maxlength="15">
+                        </div>
+
+                        <input type="submit" value="submit" class="submit">
+                    </form>
+                </div>
+            </section>
+            <br>
             <p class="copyright">Shopmart © Australia 2022. All rights reserved.</p>
         </footer>
     </body>

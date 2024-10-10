@@ -8,7 +8,7 @@
       }
 }
 
-p, h1, h2, h3, nav {
+p, h1, h2, h3, nav, form {
     font-family: "Roboto";
     color: black;
 }
@@ -26,7 +26,6 @@ a:hover {
 
 .copyright {
     text-align: center;
-    font-size: 15px;
 }
 
 
@@ -70,18 +69,13 @@ nav {
     text-decoration: none;
 }
 
-/* CSS for items */
+/* CSS for items and cart*/
 
 .items, .cart {
     display: inline-block;
-    position: static;
     padding: 10px;
     box-sizing: content-box;
-    border: 2px solid white;
     overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
     height: fit-content;
     position: relative;
 }
@@ -125,31 +119,6 @@ h1 {
     text-align: center;
 }
 
-.login {
-    text-align: left;
-    margin-left: 50px;
-    padding-left: 90px;
-    margin-right:90px;
-    color:black;
-}
-
-.signup {
-    text-align: left;
-    margin-left: 60px;
-    padding-right: 60px;
-    margin-right:50px;
-    color:black;
-}
-.form-group {
-    margin-bottom: 7px;
-    margin-top: 7px;
-    text-align: center ;
-    display: flex;
-} 
-.log-group {
-    display: flex;
-    text-align: center ;
-    }
 
 #contact {
     text-align: center;
@@ -159,10 +128,40 @@ h1 {
     text-align: center;
 }
 
+/* Login and Sign Up CSS */
+
+.signup, .login {
+    text-align: center;
+    color:black;
+}
+
+.form {
+    padding: 10px;
+    box-sizing: content-box;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.form-group {
+    margin-bottom: 7px;
+    margin-top: 7px;
+    text-align: center ;
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+.submit {
+    display: grid;
+    text-align: center;
+}
+
 /* Adjusting page for different screen sizes */
 
 @media screen and (max-width: 480px){
-    p {
+    p, form {
         font-size: 0.75rem;
     }
 
@@ -198,4 +197,9 @@ h1 {
     .logo {
         height: 150px;
     }
+
+    .form-group {
+        height: 1.15rem;
+    }
+
 }

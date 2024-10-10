@@ -1,3 +1,16 @@
+@font-face {
+    .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+}
+
+p, h1, h2, h3, nav {
+    font-family: "Roboto";
+    color: black;
+}
+
 /* CSS for items */
 
 .items, .cart {
@@ -49,17 +62,18 @@ h1 {
     float: right;
     font-size: 1.5rem;
 }
-.items {
+/*.items {
     justify-content: center;
     align-items: initial;
     width: fit-content;
     height: fit-content;
     position: relative;
     overflow: hidden; /* Hide overflow to keep the image in the frame */
-}
+
 .shopmart {
     text-align: center;
 }
+
 
 .login {
     text-align: left;
@@ -85,4 +99,25 @@ h1 {
 .log-group {
        display: flex;
     text-align: center ;
+<<<<<<< HEAD
     } 
+=======
+    }
+
+#contact {
+    text-align: center;
+}
+
+.home, .about, .contact {
+    padding: 5px 10px;
+    text-decoration: none;
+    justify-content: center;
+}
+.click {
+    margin-top: 20px;
+   padding-left: 80px;
+}
+@media screen {
+    
+}
+>>>>>>> dcd2e163bb389e5e4811281f6c2350696ed97d01

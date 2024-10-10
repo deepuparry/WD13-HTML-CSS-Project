@@ -61,11 +61,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: brown;
 }
 
 .nav-link {
     padding: 5px 10px;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 

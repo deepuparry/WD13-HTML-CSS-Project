@@ -154,8 +154,7 @@ h1 {
 } 
 
 .submit {
-    display: grid;
-    text-align: center;
+    margin-left: 37%;
 }
 
 /* Adjusting page for different screen sizes */

@@ -1,28 +1,10 @@
-@font-face {
-    .roboto-regular {
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-}
-
-p, h1, h2, h3, nav {
-    font-family: "Roboto";
-    color: black;
-}
-
 /* CSS for items */
 
 .items, .cart {
     display: inline-block;
-    position: static;
     padding: 10px;
     box-sizing: content-box;
-    border: 2px solid white
     overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
     height: fit-content;
     position: relative;
 }
@@ -30,18 +12,20 @@ p, h1, h2, h3, nav {
     margin-left: auto;
     margin-right: auto;
 }
-.items button {
+.items button, .cart button {
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
 }
 .container {
     width: 300px;
     height: 300px;
     margin: 5px;
-    
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
+    overflow: hidden; /* Hide overflow to keep the image in the frame */
     justify-content: space-between;
     align-items: center;
 }
@@ -51,10 +35,7 @@ p, h1, h2, h3, nav {
     display: block;
     object-fit: contain;
 }
-.cart button {
-    margin-left: auto;
-    margin-right: auto;
-}
+
 h1 {
     font-size: 3rem;
 }
@@ -62,34 +43,45 @@ h1 {
     float: right;
     font-size: 1.5rem;
 }
-/*.items {
+.items {
     justify-content: center;
     align-items: initial;
     width: fit-content;
     height: fit-content;
     position: relative;
     overflow: hidden; /* Hide overflow to keep the image in the frame */
-
+}
 .shopmart {
     text-align: center;
 }
 
 
-.login {
-    text-align: left;
-    margin-left: 50px;
-    padding-left: 90px;
-    margin-right:90px;
+
+#contact {
+    text-align: center;
+}
+
+#about {
+    text-align: center;
+}
+
+/* Login and Sign Up CSS */
+
+.signup, .login {
+    text-align: center;
     color:black;
 }
 
-.signup {
-    text-align: left;
-    margin-left: 60px;
-    padding-right: 60px;
-    margin-right:50px;
-    color:black;
+.form {
+    padding: 10px;
+    box-sizing: content-box;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
+
 .form-group {
     margin-bottom: 7px;
     margin-top: 7px;
@@ -99,25 +91,4 @@ h1 {
 .log-group {
        display: flex;
     text-align: center ;
-<<<<<<< HEAD
     } 
-=======
-    }
-
-#contact {
-    text-align: center;
-}
-
-.home, .about, .contact {
-    padding: 5px 10px;
-    text-decoration: none;
-    justify-content: center;
-}
-.click {
-    margin-top: 20px;
-   padding-left: 80px;
-}
-@media screen {
-    
-}
->>>>>>> dcd2e163bb389e5e4811281f6c2350696ed97d01

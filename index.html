@@ -2,19 +2,17 @@
 
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="resources/style.css">
         <link rel="stylesheet" href="header.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <title>Welcome to Shop Marts</title>
     </head>
 
     <body>
         <header>
             <!-- HEADER SECTION -->
-        <!--    <div class="image-conatiner"> -->
-                <img src="logo.jpg" class="logo">
+            <div class="image-conatiner">
+                <img src="logo.jpg" class="logo" id="home">
                 <a href="#cart-section"><img src="cartpic.jpg" class="cart-icon"></a>
             </div>
             <a href="Home" class="home">Home</a>
@@ -22,18 +20,14 @@
             <a href="#contact" class="contact">Contact us</a>
             <a href="#login" class="login">Log in</a>
             <a href="#signup" class="signup">Sign Up</a>
-
         </header>
-
-
-
-        <!-- Items Section -->
+        
         <main>
-
-            <section>
+            <!-- Items Section -->
+            <section class="item-section">
                 <h1>Collection</h1>
                 <div class="items">
-              <div class="container"> 
+                    <div class="container"> 
                         <img src="resources/images/cereal.jpg">
                     </div>
                     <h2>Coco pops</h2>
@@ -58,6 +52,7 @@
                     <p>$1.30</p>
                     <button>Add to Cart</button>
                 </div>
+
                 <div class="items">
                     <div class="container">
                         <img src="resources/images/milk.jpg">
@@ -103,7 +98,6 @@
                     <button>Add to Cart</button>
                 </div>
 
-
                 <div class="items">
                     <div class="container">
                         <img src="resources/images/eggs.jpg">
@@ -136,125 +130,127 @@
             <br><br><br><br><br>
             <br><br><br><br><br>
             <br><br><br><br><br>
+            <!-- Cart Section -->
+            <section id="cart-section">
+                <h1>Cart</h1>
+                <div class="cart">
+                    <div class="container">
+                        <img src="resources/images/marker.jpg">
+                    </div>
+                    <h2>Sharpie Marker</h2>
+                    <p>$10.95</p>
+                    <button>Remove from Cart</button>
+                </div>
 
+                <div class="cart">
+                    <div class="container">
+                        <img src="resources/images/sugar.jpg">
+                    </div>
+                    <h2>Sugar</h2>
+                    <p>$2.95</p>
+                    <button>Remove from Cart</button>
+                </div>
 
-        <!-- Cart Section -->
-        <section id="cart-section">
-            <h1>Cart</h1>
-            <div class="cart">
-                <div class="container">
-                    <img src="resources/images/marker.jpg">
+                <div class="cart">
+                    <div class="container">
+                        <img src="resources/images/wipes.jpg">
+                    </div>
+                    <h2>Huggies wipes</h2>
+                    <p>$4.99</p>
+                    <button>Remove from Cart</button>
                 </div>
-                <h2>Sharpie Marker</h2>
-                <p>$10.95</p>
-                <button>Remove from Cart</button>
-            </div>
-            <div class="cart">
-                <div class="container">
-                    <img src="resources/images/sugar.jpg">
-                </div>
-                <h2>Sugar</h2>
-                <p>$2.95</p>
-                <button>Remove from Cart</button>
-            </div>
-            <div class="cart">
-                <div class="container">
-                    <img src="resources/images/wipes.jpg">
-                </div>
-                <h2>Huggies wipes</h2>
-                <p>$4.99</p>
-                <button>Remove from Cart</button>
-            </div>
-            <div class="cart">
-                <div class="container">
-                    <img src="resources/images/bottle.jpg">
-                </div>
-                <h2>Water bottle 2L</h2>
-                <p>$15.90</p>
-                <button>Remove from Cart</button>
-            </div>
-            <div class="cart">
-                <div class="container">
-                    <img src="resources/images/salad.jpg">
-                </div>
-                <h2>Pasta Salad Bowl</h2>
-                <p>$5.90</p>
-                <button>Remove from Cart</button>
-            </div>
 
-            <br>
-            <div class="checkout" target="_blank">
-                <h3>Total: $8:00</h3>
-            <button>Checkout</button>
-            </div>
-                </section>
-                </main>
+                <div class="cart">
+                    <div class="container">
+                        <img src="resources/images/bottle.jpg">
+                    </div>
+                    <h2>Water bottle 2L</h2>
+                    <p>$15.90</p>
+                    <button>Remove from Cart</button>
+                </div>
 
-                
-        <br><br><br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br><br><br><br>
+                <div class="cart">
+                    <div class="container">
+                        <img src="resources/images/salad.jpg">
+                    </div>
+                    <h2>Pasta Salad Bowl</h2>
+                    <p>$5.90</p>
+                    <button>Remove from Cart</button>
+                </div>
+
+                <br>
+
+                <div class="checkout" target="_blank">
+                    <h3>Total: $8:00</h3>
+                    <button>Checkout</button>
+                </div>
+            
+            </section>
+        </main>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
         
-
-
         <!-- Footer section -->
         <footer>
             <hr>
                 <div id="about" class="about"><strong><u>About us</u></strong><br>
-                    <p>Welcome to Shopmart!</p><br>
+                    <br>Welcome to Shopmart!
             
-                    <p>At Shopmart, we believe shopping should be an enjoyable and seamless experience. Established in 2022, we are dedicated to providing our customers with a wide selection of high-quality products at competitive prices. From everyday essentials to unique finds, we curate our inventory to meet the diverse needs of our community.</p>
+                    At Shopmart, we believe shopping should be an enjoyable and seamless experience. Established in 2022, we are dedicated to providing our customers with a wide selection of high-quality products at competitive prices. From everyday essentials to unique finds, we curate our inventory to meet the diverse needs of our community.
                         
-                    <p>Our mission is simple: to make your shopping experience convenient, accessible, and delightful. We strive to offer not just products, but also exceptional service. Our friendly team is always here to help you find exactly what you need.</p>
+                    Our mission is simple: to make your shopping experience convenient, accessible, and delightful. We strive to offer not just products, but also exceptional service. Our friendly team is always here to help you find exactly what you need.
                     <br><br>
-                    <p><strong>What We Offer</strong><br><br></p>
-                    <p><strong> Diverse Product Range:</strong> Whether you're looking for groceries, electronics, clothing, or home goods, Shopmart has you covered.</p>
-                    <p><br><br><strong>Customer-Centric Approach:</strong>Your satisfaction is our priority. We value your feedback and continuously work to improve our services.</p>
-                    <p><br><br> <strong>Community Focus:</strong> We are proud to be part of the Australia community and support local initiatives and businesses.</p>
-                    <p>Join us at Shopmart and discover a better way to shop! We look forward to serving you.</p>
+                    <strong>What We Offer</strong><br><br>
+                    <strong> Diverse Product Range:</strong> Whether you're looking for groceries, electronics, clothing, or home goods, Shopmart has you covered.
+                    <br><br><strong>Customer-Centric Approach:</strong>Your satisfaction is our priority. We value your feedback and continuously work to improve our services.
+                    <br><br> <strong>Community Focus:</strong> We are proud to be part of the Australia community and support local initiatives and businesses.
+                    Join us at Shopmart and discover a better way to shop! We look forward to serving you.</div>
                 </div>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br><hr>
+
+
+                <br><br> <br><br>
+                <br><br> <br><br> 
+
+
+            <hr>
                 <div id="contact" class="contact">
-                    <p><strong>Contact Us:</strong></p>
-                    <br>
+                    <strong><u>Contact Us:</u></strong><br>
                 </div>
+                
                 <br>
+                
                 <div class="shopmart">
-                    <p><strong> Address:</strong> 24 Pitt Street</p>
-                    <p>Adelaide 5000</p>
-                    <p>South Australia<br> <br> </p>
-                    <p><strong>   Email:</strong> shopmart@gmail.com<br><br></p>
-                    <p><strong>Mobile:</strong> 0123456789</p>
+                    <strong> Address:</strong> 24 Pitt Street
+                    Adelaide 5000
+                    South Australia<br> <br> 
+                    <strong>   Email:</strong> shopmart@gmail.com<br><br>
+                    <strong>Mobile:</strong>0123456789
                     <br>
                 </div>
+                
+                <br>
+                <br>
+                <br>
+            </section>
 
-
-
-                <br><br><br><br><br>
-                <br><br><br><br><br>
-                <br><br><br><br><br>
-                <br><br><br><br><br>
-
-                <div id="login" class="login"><h2><strong>Log in</strong></h2><br></div>
-                    <br>
-                    <br>
-                    <div class="log-group">
-                    <label for="username">Username</label>
-                <input type="text" id="username" name="username" required minlength="3" maxlength="15">
-            </div>
-
-            <br>
+            <hr>
+            
+                <!-- Login and Sign Up Section -->
+            <section class="form-section">
+                <!--Login Section-->
+                <div class="form">
+                    <form>
+                        <div id="login" class="login">
+                            <h2><strong>Log in</strong></h2>
+                        </div>
+                        
+                        <br>
 
           <div class="form-group"> 
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" required minlength="8" maxlength="15">
             </div>
-            <div class="click">
-            <input type="submit" value="submit"></div>
+            <input type="submit" value="submit">
             <br><br><br><br><br>
             <br><br><br><br><br>
             <br><br><br><br><br>
@@ -288,10 +284,8 @@
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" required minlength="8" maxlength="15">
                     </div>
-                    <div class="click">
             <input type="submit" value="submit">
             </form>
-            </div>
 
             <p class="copyright">Shopmart © Australia 2022. All rights reserved.</p>
         </footer>

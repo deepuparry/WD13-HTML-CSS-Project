@@ -17,7 +17,7 @@ body {
     text-align: center;
     margin-left: 120px;
     padding-left: 90px;
-margin-right:90px;
+    margin-right:90px;
     color:black;
 }
 
@@ -38,35 +38,4 @@ margin-right:90px;
     color:black;
 }
 
-a:hover {
-    color:red;
-}
 
-
-.copyright {
-    text-align: center;
-    font-size: 15px;
-}
-
-
-hr {
-    border-color:brown;
-}
-
-
-.cart-icon {
-    width: 40px; /* Icon size */
-    height: 20px; /* Icon size */
-    margin-right: 1px; /* Space between icon and text */
-    cursor: pointer;
-    top: 10px;
-    right:20px;
-    position: absolute;
-    padding: 50px 20px;
-    font-size: 16px;
-    display: flex;
-}
-
-img {
-
-}
